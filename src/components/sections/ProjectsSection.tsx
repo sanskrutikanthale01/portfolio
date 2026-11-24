@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FEATURED_PROJECTS } from '../../data/portfolioData';
-import { ProjectCard } from './ProjectCard';
+import { ProjectCard } from '../projects/ProjectCard';
 
 export const ProjectsSection: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'flagship' | 'mobile' | 'fullstack' | 'independent'>('all');
